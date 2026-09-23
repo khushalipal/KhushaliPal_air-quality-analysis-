@@ -1,0 +1,160 @@
+{
+  "health": {
+    "model": "random_forest_v1",
+    "status": "ok"
+  },
+  "cities": [
+    "Ahmedabad",
+    "Aizawl",
+    "Amaravati",
+    "Amritsar",
+    "Bengaluru",
+    "Bhopal",
+    "Brajrajnagar",
+    "Chandigarh",
+    "Chennai",
+    "Coimbatore",
+    "Delhi",
+    "Ernakulam",
+    "Gurugram",
+    "Guwahati",
+    "Hyderabad",
+    "Jaipur",
+    "Jorapokhar",
+    "Kochi",
+    "Kolkata",
+    "Lucknow",
+    "Mumbai",
+    "Patna",
+    "Shillong",
+    "Talcher",
+    "Thiruvananthapuram",
+    "Visakhapatnam"
+  ],
+  "summary": {
+    "bucket_distribution": {
+      "Good": 1341,
+      "Moderate": 8829,
+      "Poor": 2781,
+      "Satisfactory": 8224,
+      "Severe": 1338,
+      "Very Poor": 2337
+    },
+    "cities": 26,
+    "date_range": {
+      "end": "2020-07-01",
+      "start": "2015-01-01"
+    },
+    "top10_polluted_cities": {
+      "Ahmedabad": 452.1,
+      "Brajrajnagar": 150.3,
+      "Delhi": 259.5,
+      "Gurugram": 225.1,
+      "Guwahati": 140.1,
+      "Jorapokhar": 159.3,
+      "Kolkata": 140.6,
+      "Lucknow": 218.0,
+      "Patna": 240.8,
+      "Talcher": 172.9
+    },
+    "total_records": 29531,
+    "valid_aqi": 24850
+  },
+  "delhi_defaults": {
+    "city": "Delhi",
+    "defaults": {
+      "Benzene": 2.96,
+      "CO": 1.24,
+      "NH3": 38.04,
+      "NO": 27.2,
+      "NO2": 47.15,
+      "NOx": 52.75,
+      "O3": 44.44,
+      "PM10": 216.73,
+      "PM2.5": 94.62,
+      "SO2": 14.45,
+      "Toluene": 12.75,
+      "Xylene": 0.65
+    }
+  },
+  "prediction_delhi": {
+    "advice": "Everyone may begin to experience health effects. Reduce outdoor activity.",
+    "aqi": 254.6,
+    "bucket": "Poor",
+    "colour": "#ff7c00",
+    "confidence": 73.0,
+    "features": {
+      "Benzene": 2.5,
+      "CO": 4.5,
+      "NH3": 18.0,
+      "NO": 35.0,
+      "NO2": 50.0,
+      "NOx": 90.0,
+      "O3": 35.0,
+      "PM10": 216.0,
+      "PM2.5": 95.0,
+      "SO2": 20.0,
+      "Toluene": 6.0,
+      "Xylene": 1.5
+    }
+  },
+  "prediction_clean": {
+    "advice": "Air quality is good. Enjoy outdoor activities.",
+    "aqi": 46.6,
+    "bucket": "Good",
+    "colour": "#00b050",
+    "confidence": 64.9,
+    "features": {
+      "Benzene": 0.3,
+      "CO": 0.5,
+      "NH3": 3.0,
+      "NO": 2.0,
+      "NO2": 8.0,
+      "NOx": 12.0,
+      "O3": 30.0,
+      "PM10": 28.0,
+      "PM2.5": 15.0,
+      "SO2": 4.0,
+      "Toluene": 0.8,
+      "Xylene": 0.2
+    }
+  },
+  "city_trend_sample": {
+    "aqi": [
+      472.0,
+      454.0,
+      143.0,
+      319.0,
+      325.0
+    ],
+    "bucket": [
+      "Severe",
+      "Severe",
+      "Moderate",
+      "Very Poor",
+      "Very Poor"
+    ],
+    "city": "Delhi",
+    "dates": [
+      "2015-01-01",
+      "2015-01-02",
+      "2015-01-03",
+      "2015-01-04",
+      "2015-01-05"
+    ],
+    "pm10": [
+      608.0,
+      269.6,
+      131.9,
+      241.8,
+      219.1
+    ],
+    "pm25": [
+      313.2,
+      186.2,
+      87.2,
+      151.8,
+      146.6
+    ]
+  }
+}
